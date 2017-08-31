@@ -1,0 +1,48 @@
+body{
+    color: #e2e2e2;
+}
+#splash{
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(#4568DC,#B06AB3)
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: table;
+}
+.text-vert{
+    width: 100%;
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+    font-family: 'Bad Script', cursive;
+    color: #e2e2e2;
+    margin-bottom: 30px;
+}
+.btns, .btns:active{
+    background: transparent;
+    border: 2px solid #e2e2e2;
+    padding: 7px 8px;
+    font-family: 'Quicksand', sans-serif;
+    color: #e2e2e2;
+    font-weight: bolder;
+    outline: none;
+}
+.btns:hover{
+    background: #e2e2e2;
+    color: #B06AB3;
+    transition: all 0.3s ease-in-out;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer a {
+    color: #ffeb3b;
+}
